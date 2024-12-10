@@ -6,7 +6,7 @@ function ResumeDownload() {
     <section id="resume" className="resume-section">
       <h2>Download My Resume</h2>
       <a
-        href="/balagtas-resume.pdf"
+        href="/Balagtas-resume.pdf"
         className="download-button"
         target="_blank"
         rel="noopener noreferrer"
