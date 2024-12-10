@@ -1,20 +1,33 @@
-.resume-download {
-    text-align: center;
-    margin: 20px auto;
+/* General styling for the Resume section */
+.resume-section {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.resume-section h2 {
+  font-size: 24px; /* Default font size for larger screens */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments for mobile view */
+@media (max-width: 768px) {
+  .resume-section h2 {
+    font-size: 18px; /* Smaller font size for mobile */
   }
-  
-  .download-button {
-    padding: 10px 20px;
-    background-color: #78a8d1;
-    color: rgb(255, 255, 255);
-    border: none;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  
-  .download-button:hover {
-    background-color: #3dbae4;
-  }
-  
+}
